@@ -50,3 +50,12 @@ let ninja2: {
     name: string,
     class: number,
 }
+
+// Type any 
+  let  age: any = 1;
+
+  age = "Hello";
+   console.log("My age is ", age);
+
+    age = true;
+    console.log(age);

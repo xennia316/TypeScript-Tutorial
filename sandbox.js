@@ -34,3 +34,9 @@ mixedArrays.push(12);
 var ninja1 = {};
 // Or explicitly
 var ninja2;
+// Type any 
+var age = 1;
+age = "Hello";
+console.log("My age is ", age);
+age = true;
+console.log(age);
