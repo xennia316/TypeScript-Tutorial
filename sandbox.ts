@@ -23,3 +23,20 @@ let fruits = {
 //     mostCommon: "pineapple",
 //     cheap: 100
 // }
+
+// Arrays
+// let firstArray: string[];
+// firstArray.push('no');
+// console.log(firstArray)
+
+let sampleArray: string[] = [];
+sampleArray.push('yes');
+
+console.log(sampleArray);
+
+// Union types
+let mixedArrays: (string | number)[] = [];
+
+mixedArrays.push("Heyyyy");
+mixedArrays.push(12);
+// mixedArrays.push(false)
