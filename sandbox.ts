@@ -40,3 +40,13 @@ let mixedArrays: (string | number)[] = [];
 mixedArrays.push("Heyyyy");
 mixedArrays.push(12);
 // mixedArrays.push(false)
+
+// Different ways to declare the object type: 
+// You can use the direct declaration method like this:
+let ninja1: object = {};
+
+// Or explicitly
+let ninja2: {
+    name: string,
+    class: number,
+}

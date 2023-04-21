@@ -29,3 +29,8 @@ var mixedArrays = [];
 mixedArrays.push("Heyyyy");
 mixedArrays.push(12);
 // mixedArrays.push(false)
+// Different ways to declare the object type: 
+// You can use the direct declaration method like this:
+var ninja1 = {};
+// Or explicitly
+var ninja2;
