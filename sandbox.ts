@@ -1,11 +1,8 @@
-const myName = 'Sonia the great';
+const circumference = (diameter: number) => {
+ let pi = Math.PI;
+ let result = diameter * pi;
 
-console.log("This is who I am: ", myName);
+ return result;
+}
 
-const inputs = document.querySelectorAll("input");
-
-console.log(inputs);
-
-inputs.forEach(input => {
-    console.log("I am ",input.innerHTML, "and my class name is", input.className);
-})
+console.log(circumference(3));
