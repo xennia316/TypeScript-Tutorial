@@ -1,43 +1,16 @@
 "use strict";
-let names = ['Amehmbo', 'Ngewung', 'Sonia'];
-names.unshift("Aya");
-// names.push(2);
-//  Error message for the above line: Argument of type 'number' is not assignable to parameter of type 'string'. 5 names.push(2);
-console.log(names);
-let fruits = {
-    best: "mango",
-    common: "pineapple",
-    cheap: 100
+let greet;
+greet = () => {
+    console.log("Hello my neighbors");
 };
-// fruits = {
-//     best: "mango",
-//     common: "papaya"
-// }
-// fruits = {
-//     best: "mango",
-//     mostCommon: "pineapple",
-//     cheap: 100
-// }
-// Arrays
-// let firstArray: string[];
-// firstArray.push('no');
-// console.log(firstArray)
-let sampleArray = [];
-sampleArray.push('yes');
-console.log(sampleArray);
-// Union types
-let mixedArrays = [];
-mixedArrays.push("Heyyyy");
-mixedArrays.push(12);
-// mixedArrays.push(false)
-// Different ways to declare the object type: 
-// You can use the direct declaration method like this:
-let ninja1 = {};
-// Or explicitly
-let ninja2;
-// Type any 
-let age = 1;
-age = "Hello";
-console.log("My age is ", age);
-age = true;
-console.log(age);
+const add = (a, b, c) => {
+    console.log(a + b);
+    console.log("Can you see me? ", c);
+};
+add(4, 8, '9');
+const minus = (a, b) => {
+    let c = a - b;
+    console.log(c);
+    return (c);
+};
+minus(10, 2);
