@@ -1,20 +1,12 @@
-let greet: Function;
-
-greet = () => {
-    console.log("Hello my neighbors")
+type StringOrNumber = string | number;
+type userObject =  {
+    name: string,
+    uid: StringOrNumber,
+}
+const logMyDetails= (uid: StringOrNumber, item: string): void => {
+console.log(`${item} has an id of ${uid}`)
 }
 
-const add = (a: number, b:number, c?: number | string): void => {
-    console.log(a + b);
-    console.log("Can you see me? ", c);
+const sayHi = (user: userObject): void => {
+    console.log(user.name, "says hi...")
 }
-add(4,8,'9');
-
-const minus = (a:number, b:number): number =>{
-    let c:number  = a - b;
-    console.log(c)
-return (c)
-}
-
-
-minus(10,2);
