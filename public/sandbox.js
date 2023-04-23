@@ -1,7 +1,7 @@
 "use strict";
-const logMyDetails = (uid, item) => {
-    console.log(`${item} has an id of ${uid}`);
-};
-const sayHi = (user) => {
-    console.log(user.name, "says hi...");
+// let greeting: Function
+// example1
+let greeting;
+greeting = (name, words) => {
+    console.log(`${name} says ${words}`);
 };
