@@ -28,3 +28,10 @@ calc = (numOne: number, numTwo: number, operation: string): number => {
 }
 
 // example 3
+let logDetails: (obj: {name: string, age: number}) => void;
+
+type person = {name: string, age: number}
+
+logDetails = (ninja: person) => {
+    console.log(`${ninja.name} is ${ninja.age} years old`)
+}
